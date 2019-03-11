@@ -1,7 +1,9 @@
 Put all the files in path. All codes are based on fieldtrip toolbox, therefore add fieldtrip to path as well.
 
-1) Timelock_Example: This simulates mixture of gaussian with different SNR values and drifts. It also computes sources based on the covariance of the timelocked response using eLORETA, MNE. and LCMV.
+1) Timelock_Example: This simulates mixture of gaussian with different SNR values and drifts. It also computes sources based on the covariance of the timelocked response using eLORETA, MNE and LCMV.
 2) Freqency_Example: This simulates mixture of sinusoidal with different SNR values and power ratios. This also computes sources based on the cross spectral density of the frequency response using eLORETA and DICS.
+
+Follow the comments.
 
 Functions:
 1) fun_simulation: function to simulate sinusoidal or gaussian based on the arguments entered in the data structure 'fun'.
